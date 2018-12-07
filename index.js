@@ -99,7 +99,7 @@ client.on("message", message => {
       }
       if(message.content.includes("PN!RIPmusulmans")){
         message.delete();
-        message.channel.send("https://cdn.discordapp.com/attachments/518527001280380960/520669737647341579/download.jpg")
+        message.channel.send("https://cdn.discordapp.com/attachments/494169648514727968/520351217906614295/image-5.jpg")
       }
       if(message.content.includes("PN!Biffle")){
           message.delete();
