@@ -121,6 +121,13 @@ client.on("message", message => {
           .addField("https://discord.gg/Ar5fQS", "REJOIGNEZ BANDE DE PUTE")
           message.channel.send(Pub)
       }
+    if(message.content.includes(`PN!Reload`)){
+        console.clear();
+           client.destroy()
+           client.login(TOKEN2);
+         message.channel.send("C'est bon gros");
+     return;
+    }
 })
 
 
